@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# engine outputs / intermediates
+out/
+.venv/
+__pycache__/
+*.pyc
+
+# copyrighted media — never commit
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+*.lrc
+code/song/*.wav
+code/song/*.lrc
+
+# generated lyric data (copyrighted text)
+data/lyrics.json
+code/data/lyrics.json
+
+# render intermediates / large videos
+*.mp4
+*.mov
+*.mkv
+*.png.raw
+chunk_*.mp4
+
+# local junk
+.DS_Store
+Thumbs.db
+*.log
